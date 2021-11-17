@@ -1,0 +1,619 @@
+.header {
+  display: block;
+  box-sizing: border-box;
+  background: #f7f7f7;
+  position: relative;
+  z-index: 99;
+
+  &:before {
+    background: #006341;
+    height: 10px;
+    content: '';
+    display: block;
+    width: 100%;
+  }
+  &:after {
+    position: absolute;
+    background: #1e1e1e;
+    height: 3px;
+    opacity: 0.05;
+    content: '';
+    display: block;
+    width: 100%;
+  }
+
+  .header__container {
+    display: flex;
+    padding: 1.5rem 20px 0 20px;
+    padding-bottom: 0;
+    text-align: left;
+    max-width: 1320px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    .header__main {
+      display: flex;
+
+      .header__logo {
+        width: 62px;
+        & a {
+          background: transparent;
+          text-decoration: none;
+          color: inherit;
+          cursor: pointer;
+          line-height: 1em;
+          display: inline-block;
+          width: 100%;
+        }
+        & a:before {
+          content: '';
+          display: block;
+          background: url(https://www.starbucks.com.tw/objects/images/logo.png);
+          background-size: cover;
+          padding-top: 100%;
+        }
+      }
+      .header__item {
+        margin-left: 2.6rem;
+        margin-top: 1rem;
+        .header__list {
+          display: flex;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          margin-block-start: 1em;
+          margin-block-end: 0em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+
+          & li {
+            list-style-type: none;
+            font-weight: bold;
+          }
+          & li a {
+            padding: 1em 1em 1.2em;
+            font-size: 1.6rem;
+            letter-spacing: 0.1rem;
+            background: transparent;
+            text-decoration: none;
+            cursor: pointer;
+            line-height: 1em;
+            display: inline-block;
+          }
+        }
+      }
+    }
+    .header__sub {
+      display: flex;
+      text-align: left;
+
+      & a {
+        font-size: 1.5rem;
+        font-weight: bold;
+        background: transparent;
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+        line-height: 1em;
+        display: inline-block;
+        box-sizing: border-box;
+      }
+      & a:before {
+        content: '';
+        display: inline-block;
+        width: 1.6rem;
+        height: 1.6rem;
+        vertical-align: bottom;
+        background-position: 50% 0;
+        background: url(https://www.starbucks.com.tw/objects/images/header_utility_list.png)
+          no-repeat;
+        background-size: 300%;
+      }
+      & a:after {
+        content: '門市查詢';
+      }
+      & a:hover {
+        color: #868383;
+      }
+    }
+  }
+}
+
+
+.wrap {
+  height: 100%;
+  padding-bottom: 48px;
+  width: 100%;
+
+  .content {
+    padding: 0 20px;
+    max-width: 1320px;
+    margin: 0 auto;
+
+    .adpage1 {
+      max-height: 600px;
+      margin: 32px 0px 0px;
+      background: #e7dbd3;
+      display: flex;
+      align-items: center;
+
+      .img-block {
+        width: 100%;
+        height: auto;
+
+        img {
+          width: 80%;
+          height: auto;
+        }
+      }
+
+      .text-block {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 20px 135px 0 0;
+
+        img {
+          width: 150%;
+          height: auto;
+        }
+      }
+
+      .btn {
+        margin: 30px;
+        cursor: pointer;
+        font-size: 14pxm;
+        font-weight: bold;
+        color: orangered;
+        border: 1px solid orangered;
+        border-radius: 45px;
+        padding: 0.5em 1.5em;
+        margin: 32px auto0;
+        min-width: 4em;
+        box-sizing: content-box;
+        display: inline-block;
+      }
+    }
+
+    .adpage2 {
+      max-height: 600px;
+      padding: 0;
+      margin: 32px 0px 0px;
+      background: #1e3932;
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      .img-block img {
+        width: 640px;
+        height: auto;
+      }
+      .text-block {
+        width: 640px;
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        color: #fff;
+        width: 100%;
+        padding: 0 10px;
+      }
+      .btn {
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 45px;
+        padding: 0.5em 1.5em;
+        margin: 32px auto 0;
+        min-width: 4em;
+        box-sizing: content-box;
+        display: inline-block;
+      }
+    }
+    .adpage3 {
+      max-height: 600px;
+      padding: 0;
+      margin: 32px 0px 0px;
+      background: #1e3932;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      .img-block img {
+        width: 640px;
+        height: auto;
+      }
+      .text-block {
+        width: 640px;
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        color: #fff;
+        width: 100%;
+        padding: 0 10px;
+      }
+
+      .btn {
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 45px;
+        padding: 0.5em 1.5em;
+        margin: 32px auto 0;
+        min-width: 4em;
+        box-sizing: content-box;
+        display: inline-block;
+      }
+    }
+
+    .adpage4 {
+      padding: 0;
+      margin: 32px 0px 0px;
+      background: #008879;
+      display: flex;
+      flex-direction: row;
+
+      .img-block img {
+        width: 150%;
+        height: auto;
+      }
+      .text-block img {
+        margin: 15% 0 0 25%;
+        width: 75%;
+      }
+    }
+
+    .adpage5 {
+      padding: 0;
+      margin: 32px 0px 0px;
+      height: 387px;
+      background: #1e3932;
+      display: flex;
+
+      .msr {
+        width: 640px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        .msr-star {
+          margin-bottom: 100px;
+          width: 50px;
+          height: auto;
+        }
+
+        .msr1 {
+          width: 300px;
+          height: auto;
+        }
+      }
+      .text-block {
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        color: #fff;
+        width: 100%;
+        padding: 0 10px;
+      }
+      .goldreward {
+        padding: 50px;
+        width: 640px;
+        align-items: center;
+        text-align: center;
+        background: #00704a;
+
+        .img-block img {
+          width: 145px;
+          height: auto;
+        }
+      }
+      .btn {
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 45px;
+        padding: 0.5em 1.5em;
+        margin: 32px auto 0;
+        min-width: 4em;
+        box-sizing: content-box;
+        display: inline-block;
+      }
+    }
+
+    .adpage6 {
+      padding: 0;
+      margin: 32px 0px 0px;
+      background: #1e3932;
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      .img-block img {
+        width: 640px;
+        height: auto;
+      }
+      .text-block {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        color: #fff;
+        width: 100%;
+        padding: 0 10px;
+      }
+      .btn {
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 45px;
+        padding: 0.5em 1.5em;
+        margin: 32px auto 0;
+        min-width: 4em;
+        box-sizing: content-box;
+        display: inline-block;
+      }
+    }
+
+    .adpage7 {
+      padding: 0;
+      margin: 32px 0px 0px;
+      background: #1e3932;
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      .img-block img {
+        width: 640px;
+        height: auto;
+      }
+      .text-block {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        color: #fff;
+        width: 100%;
+        padding: 0 10px;
+      }
+      .btn {
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 45px;
+        padding: 0.5em 1.5em;
+        margin: 32px auto 0;
+        min-width: 4em;
+        box-sizing: content-box;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.footer {
+  padding: 2.5rem 0;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  font-size: 1.5rem;
+
+  .footer__top {
+    padding: 2.5rem 0;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    background: #f0f0f0;
+
+    .footer__top--container {
+      max-width: 1320px;
+      padding: 0 20px;
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+
+      .footer__top--container--socialicons {
+        text-align: left;
+
+        & ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+
+          & li {
+            transition: all 0.6s;
+            margin-right: 0.8em;
+            display: inline-block;
+            opacity: 0.7;
+
+            & a {
+              height: 30px;
+              background: transparent;
+              text-decoration: none;
+              color: inherit;
+              cursor: pointer;
+              line-height: 1em;
+              display: inline-block;
+            }
+            .fb {
+              width: 14px;
+            }
+            .fb:before {
+              content: '';
+              display: block;
+              background: url(https://www.starbucks.com.tw/objects/images/social-icons.png)
+                no-repeat;
+              background-size: auto 300%;
+              height: 100%;
+              background-position: 0 0;
+            }
+            .ig {
+              width: 30px;
+            }
+            .ig:before {
+              content: '';
+              display: block;
+              background: url(https://www.starbucks.com.tw/objects/images/social-icons.png)
+                no-repeat;
+              background-size: auto 300%;
+              height: 100%;
+              background-position: 0 50%;
+            }
+            .yt {
+              width: 25px;
+            }
+            .yt:before {
+              content: '';
+              display: block;
+              background: url(https://www.starbucks.com.tw/objects/images/social-icons.png)
+                no-repeat;
+              background-size: auto 300%;
+              height: 100%;
+              background-position: 0 100%;
+            }
+            .line {
+              width: 30px;
+            }
+            .line:before {
+              content: '';
+              display: block;
+              background: url(https://www.starbucks.com.tw/objects/images/social-icons-line.svg)
+                no-repeat;
+              background-size: cover;
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer__main {
+    background: #f0f0f0;
+    padding: 3rem 2rem;
+
+    .footer__main--container {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      max-width: 1320px;
+      display: flex;
+
+      .footer__main--container--global {
+        display: flex;
+        min-height: 166px;
+        box-sizing: border-box;
+        background: url(https://www.starbucks.com.tw/objects/images/wordmark_footer.png)
+          98.5% 0 no-repeat;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: normal;
+        justify-content: normal;
+        align-items: normal;
+        width: 100%;
+
+        .footer__main--container--global--infoblock {
+          text-align: left;
+          width: calc(100% / 5);
+
+          & h4 {
+            margin: 0;
+            font-weight: normal;
+            line-height: 1.2em;
+            font-size: 1.9rem;
+            margin-bottom: 1.2em;
+            display: block;
+            margin-block-start: 1.33em;
+            margin-block-end: 1.33em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+          }
+          & ol {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            & li {
+              margin: 0;
+              padding: 0;
+              margin-bottom: 1em;
+              & a {
+                color: #3d3935;
+                font-size: 1.5rem;
+                background: transparent;
+                text-decoration: none;
+                cursor: pointer;
+                line-height: 1em;
+                display: inline-block;
+              }
+            }
+          }
+          .footer__main--container--global--infoblock--green {
+            color: #2a8a15;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+
+  .footer__bottom {
+    text-align: left;
+    padding-bottom: 45px;
+    background: #f0f0f0;
+
+    .footer__bottom--container {
+      max-width: 1320px;
+      padding: 0 20px;
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+
+      .footer__bottom--container-footersub {
+        flex-direction: row;
+        color: #666;
+        padding: 1em 0 0.4em;
+        display: flex;
+        list-style: none;
+        margin: 0;
+
+        & li {
+          margin: 0;
+          padding: 0;
+          display: list-item;
+          & a {
+            background: transparent;
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+            line-height: 1em;
+            display: inline-block;
+          }
+          & a:after {
+            content: '│';
+            display: inline-block;
+            margin: 0 0.4em;
+          }
+        }
+      }
+
+      .footer__bottom--container--copyright {
+        font-size: 1.3rem;
+        color: #666;
+      }
+    }
+  }
+}
+
+
+
+
+
