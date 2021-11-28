@@ -1,0 +1,16 @@
+.view-list {
+    text-align: left;
+    margin: 2rem 0;
+    list-style: none;
+    display: block;
+
+    & li{
+        border: solid 1px #a5a8aa;
+        padding: 0.4em 0.8em;
+        border-radius: 0.4rem;
+        display: inline-block;
+        font-size: 1.4rem;
+        margin: 0 1rem 1rem 0;
+        cursor: pointer;
+    }
+}

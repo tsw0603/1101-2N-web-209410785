@@ -1,0 +1,41 @@
+a{
+    background: transparent;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    line-height: 1em;
+    display: block;
+    box-sizing: border-box;
+
+
+
+
+.column-img {
+    margin-bottom: 1rem;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    padding-top: 100%;
+
+    & img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: auto;
+        min-height: 100%;
+        transform: translate(-50%,-50%);
+        border: 0;
+        vertical-align: middle;
+        line-height: 0;
+        font-size: 0;
+    }
+}
+
+.column-text {
+    font-size: 1.3rem;
+    line-height: 1.5em;
+}
+
+}
