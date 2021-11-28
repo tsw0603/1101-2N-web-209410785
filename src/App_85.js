@@ -22,8 +22,8 @@ const App_85 = () => {
         <Route exact path='/Product_85' component={Product_85} />
         <Route exact path='/StorePage_85' component={Store_85} />
         <Route exact path='/StarCourtesyPage_85' component={StarCourtesy_85} />
-        <Route exact path='FourthSpacePage_85' component={FourthSpace_85} />
-        <Route exact path='GiftAreaPage_85' component={GiftArea_85} />
+        <Route exact path='/FourthSpacePage_85' component={FourthSpace_85} />
+        <Route exact path='/GiftAreaPage_85' component={GiftArea_85} />
         <Route exact path='/OnlineStorePage_85' component={OnlineStore_85} />
       </Switch>
       <Footer_85 />

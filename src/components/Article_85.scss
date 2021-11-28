@@ -12,20 +12,20 @@
         display: block;
         box-sizing: border-box;
 
-        & h2{
+        h2{
             font-size: 2.7rem;
             margin: 0;
             font-weight: normal;
             line-height: 1.2em;
         }
 
-        & ul{
+        ul{
             display: flex;
             flex-wrap: wrap;
             align-content: flex-start;
             list-style: none;
 
-            & li{
+            li{
                 width: calc(100%/5 - 2.2rem);
                 margin: 1.5rem 2.5rem 1.5rem 0;
 
