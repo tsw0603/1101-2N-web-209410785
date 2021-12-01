@@ -16,7 +16,7 @@ const otherdrinks_85 = [
         url: 'https://www.starbucks.com.tw/common/objects/images/product/20210930155025344.jpg',
     },
     {
-        id: 1,
+        id: 3,
         name_cn: '兒童熱可可',
         name_en: `Kid's Hot Chocolate`,
         type: '其他飲料系列',

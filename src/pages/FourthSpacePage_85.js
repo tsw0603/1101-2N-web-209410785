@@ -2,7 +2,7 @@ import React from 'react'
 
 const FourthSpace_85 = () => {
     return (
-        <h2>The fourth living space Page</h2>
+        <h1>The fourth living space Page</h1>
     )
 }
 

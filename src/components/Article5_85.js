@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Article_85.scss';
-import items from './data/daycoffee_85-data'
+import items from './data/canneddrinks_85-data'
 import ArticleM_85 from './ArticleM_85';
 
 const Article_85 = () => {
@@ -10,7 +10,7 @@ const Article_85 = () => {
         <div>
 
                 <div class="article">
-                    <div class="ah2">每日精選咖啡</div>
+                    <div class="ah2">罐裝飲料系列</div>
                         <ul>
                             <li>
                     {menuItems.map(item => {
@@ -26,7 +26,6 @@ const Article_85 = () => {
                             </li>
                         </ul>
                     </div>
-                    
                 </div>
    
     )

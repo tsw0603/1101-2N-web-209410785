@@ -34,13 +34,6 @@ const Info_85 = () => {
                         />
                     </div>
             </section>
-            <section className="adpage3">
-                        <div className="img-block"><img src="./img/sp-03.jpg"/></div>
-                        <div className="text-block">
-                            <img src="./img/sp-03-text.svg"/>
-                            <a href="#"><div className="btn">了解詳情</div></a>
-                        </div>
-            </section>
             <section className="adpage4">
                     <div className="img-block">
                         <a href=""

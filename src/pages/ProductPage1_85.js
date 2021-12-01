@@ -1,9 +1,9 @@
 import React from 'react'
 import './ProductPage_85.scss';
-import Products_85 from '../components/Products_85';
+import Products1_85 from '../components/Products1_85';
 
 
-const Product_85 = () => {
+const Product1_85 = () => {
     return (   
         <div>
             <div class="top">
@@ -12,18 +12,18 @@ const Product_85 = () => {
                         <li><a href="#">首頁</a></li>
                         <li><a href="#">商品</a></li>
                         <li><a href="#">飲料專區</a></li>
-                        <li><a href="#">咖啡飲品</a></li>
+                        <li><a href="#">茶瓦納</a></li>
                     </ul>
                 </div>
             </div>
-            <Products_85 />
+            <Products1_85 />
             <div class="fields">
                 <div class="container">
                     <ul>
                         <li><a href="#">首頁</a></li>
                         <li><a href="#">商品</a></li>
                         <li><a href="#">飲料專區</a></li>
-                        <li><a href="#">咖啡飲品</a></li>
+                        <li><a href="#">茶瓦納</a></li>
                     </ul>
                 </div>
             </div>
@@ -32,4 +32,4 @@ const Product_85 = () => {
     )
 }
 
-export default Product_85;
+export default Product1_85;
